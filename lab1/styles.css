@@ -1,0 +1,15 @@
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.container {
+    margin: 0px 20px 0px 20px;
+}
+
+.content {
+    text-indent: 5ch;
+}

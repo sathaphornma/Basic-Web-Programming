@@ -1,0 +1,15 @@
+h3{
+    letter-spacing: 3pt;
+    font-size: 12pt;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: Arial;
+}
+h3:first-letter{
+    font-size: 300%;
+    color: red;
+    font-weight: bold;
+}
+p{
+    margin-left: 50px;
+}

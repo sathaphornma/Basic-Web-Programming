@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    background-color: grey;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+fieldset{
+    border-color: rgb(255, 255, 255);
+    border-style: dotted;
+}
+
+.containerFuild{
+    margin:0px 0px 10px 0px;
+    padding: 20px;
+}
+
+.container{
+    margin: 0px 20px 0px 20px;
+    padding: 20px;
+}
+
+.card {
+    color: teal;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.topic{
+    letter-spacing: 5px;
+    font-variant: small-caps;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-style: double;
+    border-color: yellow;
+    padding: 10px;
+
+}
+
+.topic:first-letter{
+    color: yellow;
+    font-size: 200%;
+}
+
+u{
+    color: yellow;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+}
+
+table{
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+}
+
+th{
+    margin: 0;
+    border-style: solid;
+    border-color: rgb(255, 187, 0);
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+tr:hover{
+    background-color: rgba(255, 0, 0, 0.28);
+}

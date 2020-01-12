@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>calculate</title>
+    <style>
+        body{
+            margin: 5;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <form action="./calculate.php" method="post">
+        <table border="1">
+            <tr style="background-color: red;">
+                <th colspan="3">Calculate Program</th>
+            </tr>
+            <tr>
+                <td>
+                    <p>Number 1</p>
+                    <input type="number" name="number1" />
+                </td>
+                <td>
+                    <input type="radio" name="op" value="+" checked/><label for="">Plus(+)</label>
+                    <br /><input type="radio" name="op" value="-" /><label for="">Minus(-)</label>
+                    <br /><input type="radio" name="op" value="*"/><label for="">Multiply(*)</label>
+                    <br /><input type="radio" name="op" value="/" /><label for="">Divide(/)</label>
+                </td>
+                <td>
+                    <p>Number 2</p>
+                    <input type="number" name="number2" id="" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <center>
+                        <button type="submit">Click to Here to See an Answer!</button>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        </form>
+    </center>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Min and Max</title>
+</head>
+
+<body>
+    <center>
+        <form action="./minmax.php" method="get">
+            <table border="1">
+                <thead>
+                    <tr style="background-color: blue; color: white;">
+                        <th colspan="3">Min and Max</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Number 1</p>
+                            <input type="number" name="num1" id="" required>
+                        </td>
+                        <td>
+                            <p>Number 2</p>
+                            <input type="number" name="num2" id="" required>
+                        </td>
+                        <td>
+                            <p>Number 3</p>
+                            <input type="number" name="num3" id="" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="radio" name="find" value="min" checked><label for="min">Find Minimum
+                                Number</label><br>
+                            <input type="radio" name="find" value="max"><label for="max">Find Maximum Number</label><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <center>
+                                <button type="submit">Click here to see Answer!</button>
+                            </center>
+                        </td colspan="3">
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>

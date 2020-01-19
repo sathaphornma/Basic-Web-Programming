@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Input Text</title>
+    <style>
+      fieldset {
+        border-color: red;
+        margin: auto;
+        width: 480px;
+        padding: 10px;
+      }
+
+      table {
+        margin: auto;
+      }
+
+      tr.bordered {
+        border-bottom: 2px solid grey;
+      }
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h3>Input Text Here</h3></legend>
+      <p>Please copy and paste text in the box.</p>
+      <form action="column3.php" method="get">
+        <table>
+          <tr>
+            <td>
+              <textarea name="txt" id="" cols="100%" rows="10"></textarea>
+            </td>
+          </tr>
+          <tr class="bordered">
+            <td>
+              <center>
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+  </body>
+</html>

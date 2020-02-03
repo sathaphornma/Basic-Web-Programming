@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>View Guestbook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="text-center">
+        <h2>SATHAPORN MANEEBOON</h2>
+        <p>Rajamangala University of Technology Isan, THAILAND</p>
+    </div>
+
+    <hr>
+    <div class="menu">
+        <div class="text-center">
+            ::|::<a href="./home.html">Home</a>::|::
+            <a href="./office_hour.html">Office Hour</a>::|::
+            <a href="./like_dislike.html">Like/Dislike</a>::|::
+            <a href="./images.html">Image</a>::|::
+            <a href="./links.html">Links</a>::|::
+            <a href="./guestbook.html">Guestbook</a>::|::
+            <a href="./view_guestbook.php">View Guestbook</a>::|::
+        </div>
+    </div>
+    <hr>
+
+    <div class="container">
+        <b>Please sign in ...</b>
+        <form method="POST" action="process.php">
+            <table class="Ocenter no-spacing" width="50%">
+                <thead class="bg-blue color-white">
+                    <tr>
+                        <th colspan="2">
+                            <p class="p">Welcome</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Initial</td>
+                        <td>
+                            <input type="radio" name="initial" value="Mr." checked> Mr.<br>
+                            <input type="radio" name="initial" value="Ms."> Ms.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input class="input-box" type="text" name="myName" required value="Sathaporn Maneeboon"></td>
+                    </tr>
+                    <tr>
+                        <td>ID</td>
+                        <td><input class="input-box num" type="number" name="myId" required value="611723103318"></td>
+                    </tr>
+                    <tr>
+                        <td>School</td>
+                        <td>
+
+                            <select name="school">
+                                <option value="Computer Engineering">Computer Engineering</option>
+                                <option value="Electronic Engineering">Electronic Engineering</option>
+                                <option value="Civil Engineering">Civil Engineering</option>
+                                <option value="Serve Engineering">Serve Engineering</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input class="input-box" name="myEmail" type="email" required value="sathaporn.ma@rmuti.ac.th"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                    <tr class="bg-blue tr-h">
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr align="center">
+                        <td></td>
+                        <td>
+                            <small>
+                                &copy; Wep Programming. Rajamangala University of Technology Isan, THAILAND
+                            </small>
+                        </td>
+                    </tr>
+                    <tr class="bg-blue tr-h">
+                        <td colspan="2"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <hr>
+
+    <div class="text-center">
+        <a href="https://mail.google.com/mail/mu/">email: sathaporn.ma@rmuti.ac.th</a>
+    </div>
+
+</body>
+
+</html>
